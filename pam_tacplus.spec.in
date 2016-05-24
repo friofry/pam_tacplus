@@ -72,7 +72,6 @@ chmod 755 $RPM_BUILD_ROOT/usr/local/include/libtac
 
 %files devel
 %defattr(-,root,root,-)
-%attr(755,root,root) /usr/local/bin/*
 %attr(644,root,root) /usr/local/include/*
 %attr(755,root,root) /usr/local/lib/*.so
 %attr(755,root,root) /usr/local/lib/*.la
